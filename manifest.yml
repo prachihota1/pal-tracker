@@ -2,7 +2,6 @@
 applications:
 - name: pal-tracker
   path: build/libs/pal-tracker.jar
-  routes:
-  - route: ph-pal-tracker-friendly-lion.apps.pcf.paltraining.perficient.com
+  random-route: true
   env:
     WELCOME_MESSAGE: Hello from the review environment
